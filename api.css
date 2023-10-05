@@ -27,6 +27,12 @@
       outline:none;
       border-radius: 10px;
       cursor:pointer;
-      background-color:green;
+      background-color: gold;
       color:#000;
     }
+    @media (max-width: 767px) {
+      .button {
+         
+        background-color: green;
+      }
+  }
